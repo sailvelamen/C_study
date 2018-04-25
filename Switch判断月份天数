@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int manth;
+    printf("请输入月份\n");
+    scanf("%d",&manth);
+    switch(manth){//表达式只能是整形或字符型
+    	case 1 ://常量表达式的值不能相同
+    	    printf("30天\n");
+            break;
+    	case 2 :
+    	    printf("28或29天\n");
+    	    break;
+    	case 3 :
+    	    printf("31天\n");
+    	    break;
+    	case 4 :
+    	    printf("30天\n");
+    	    break;
+    	case 5 :
+    	    printf("31天\n");
+    	    break;
+    	case 6 :
+    	    printf("30天\n");
+    	    break;
+    	case 7 :
+    	    printf("31天\n");
+    	    break;
+    	case 8 :
+    	    printf("31天\n");
+    	    break;
+    	case 9 :
+    	    printf("30天\n");
+    	    break;
+    	case 10 :
+    	    printf("31天\n");
+    	    break;
+    	case 11 :
+    	    printf("30天\n");
+    	    break;
+    	case 12 :
+    	    printf("31天\n");
+    	    break;
+        default:
+            printf("输入有误！！！");
+    }
+    return 0;
+}
