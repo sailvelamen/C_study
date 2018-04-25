@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    double flowerPrice;
+
+    printf("在一个月黑风高的夜晚\n");
+    printf("一个小男生用自己的零花前给小姐姐买了一束花\n");
+    printf("小女生问小男生鲜花多少钱买的？\n");
+    printf("小男生说：");
+
+    scanf("%lf",&flowerPrice);
+
+    if(flowerPrice > 99999)
+    {
+        printf("小女生直接晕了！\n");
+    }else if(flowerPrice >= 100000 && flowerPrice <= 999999)
+    {
+        printf("明天结婚！\n");
+    }
+    else if(flowerPrice >= 10000 && flowerPrice < 100000)
+    {
+        printf("拉拉手意思意思！");
+    }
+    else
+    {
+        printf("你是个好人！");
+    }
+    return 0;
+}
