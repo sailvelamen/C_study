@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello world!%d\n",3);
+    getchar();//生成的exe可以直接打开
+    return 0;
+}
