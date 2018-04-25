@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float height = 150.0f;
+    float width = 25.0f;
+    float s = height * width;
+    printf("长方形的面积为：%.2f\n",s);
+    return 0;
+}
